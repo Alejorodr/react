@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCo Electro Commerce</title>
+    <!-- Agrega aquí tus enlaces a hojas de estilos CSS, fuentes, y otros recursos -->
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- Agrega el archivo JavaScript de tu aplicación React -->
+    <script src="./src/app.jsx"></script>
+
+    <!-- Incluye el componente Navbar y CartWidget de React -->
+    <script>
+        const rootElement = document.getElementById("root");
+
+        ReactDOM.render(
+            <div>
+                <NavBar />
+                <CartWidget />
+            </div>,
+            rootElement
+        );
+    </script>
+</body>
+</html>
